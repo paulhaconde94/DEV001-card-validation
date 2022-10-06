@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
+    <main class="container">
+
+      <header class="contenedor-nombre">
+        <h1>TIENDA</h1>
+
+      </header>
+      
+  <div id="contenedorTarjeta" class="contenedor-tarjeta">
+      
+      <h2 class="titulo-tarjeta">
+      Verificación de Tarjeta 
+      </h2>
+    
+    <input type="text" class="NombreDeUsuario" placeholder="Ingrese su nombre" id="NombreDeUsuario">
+    
+    
+    <div class = "container__target">
+    <input type="text" class="NumeroDeTarjeta" placeholder="Número de Tarjeta" id="NumeroDeTarjeta" maxlength="16">
+    <input type="text" class="pin" placeholder="CVV" id="numero" maxlength="4" >
+    
+    <button type="submit" class="botonVerificar" id="botonVerificar"> Verificar </button>
+    </div>
+
+  </div>
+
+  <div id= "SegundaPantalla" class= "SegundaPantalla" style="display:none">
+  <h2 class="titulo-tarjeta2">
+    Verificación de Tarjeta
+  </h2>
+  <div class="mensajeF">
+    <p id="nombre-de-usuario-final"></p>
+    <p id="mensaje">El número que ingreso:</p> 
+    <p id="ultimos-cuatro"></p>
+    <p id="estado-validez"></p>
+    
+  </div>
+<button class="botonOtro" id="boton2">Verificar otra tarjeta</button>
+  </div>
+  
+  </main>
+  
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
