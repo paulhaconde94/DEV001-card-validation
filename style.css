@@ -1,0 +1,182 @@
+/*
+font-family: 'Poppins' , monospace;  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', monospace;
+  }
+
+  body {
+    background: #CCC0C0;
+    text-align: center;
+  }
+  
+  
+  .container{
+    margin-bottom: 80px;
+  }
+
+  .contenedor-nombre{
+    background: #352A9A;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    margin: 50px auto;
+    width: 900px;
+  }
+  
+  .contenedor-nombre h1{
+    font-family: 'Poppins', monospace;
+    font-weight: 100;
+        
+  }
+
+  .titulo-tarjeta{
+    color:#E9E20B;
+    font-size: 40px;
+    font-family: 'Poppins', monospace;
+    font-weight: bold;
+    margin-top: 80px;
+    letter-spacing: 9px;
+
+  }
+
+  .container__target{
+    width: 70%;
+    margin: 50px auto 0 auto;
+
+  }
+  
+  
+  .NombreDeUsuario{
+    width: 60%;
+    padding: 0.8rem;
+    margin: 70px auto 0 auto;
+    text-align: center;
+    background: #ffffff;
+    color: #615B5B;
+    border-style: none;
+    border-radius: 11px;
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+
+  .NumeroDeTarjeta, 
+  .pin
+  {
+    width: 40%;
+    padding: 0.8rem;
+    margin: 0 15px;
+    text-align: center;
+    background: #ffffff;
+    color: #615B5B;
+    border-style: none;
+    border-radius: 11px;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+      
+}
+
+  .botonVerificar{
+    display: block;
+    width:40%;
+    padding: 0.8rem;
+    border-style: none;
+    border-radius:11px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 0;
+    background: #ffffff;
+    color:#615B5B;
+    margin: 50px auto;
+}
+
+button:hover{
+  background-color: #E9E20B ;
+
+}
+
+button:active{
+  background-color: #E9E20B; 
+
+}
+
+::placeholder{
+  color: #615B5B;
+
+}
+
+.contenedor-tarjeta{
+background-color: #352A9A;
+border-radius: 30px;
+display:flex;
+flex-direction: column;
+width: 900px;
+height: 600px;
+margin: auto;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.SegundaPantalla{
+  background-color: #352A9A;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+      
+.titulo-tarjeta2{
+  color: #E9E20B;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: 'Poppins' , monospace;
+  font-weight: bold;
+  background-color: #352A9A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  letter-spacing: 9px;
+  padding: 5rem;
+}
+
+.mensajeF{
+  width: 500px;
+  height: 150px;
+  align-content: center;
+  text-align: center;
+  padding: 0.8rem;
+  margin: auto;
+  background-color: #ffffff;
+  color: #615B5B;
+  border-style: none;
+  border-radius: 11px;
+  font-size: 18px;
+  letter-spacing: 4px;
+
+}
+
+footer{
+  color:#ffffff;
+  text-align: center;
+}
+
+#boton2{
+  display: block;
+  width: 40%;
+  padding: 0.8rem;
+  border-style: none;
+  border-radius: 11px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0;
+  background-color: #E9E20B;
+  color: #615B5B;
+  margin: 50px auto;
+
+}
