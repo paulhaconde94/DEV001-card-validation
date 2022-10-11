@@ -1,10 +1,10 @@
 const validator = {
     isValid (creditcardNumber){
-        let array = creditcardNumber.split("");
+        let array = creditcardNumber.split("").reverse();
         let arra2 = [];
         //console.log(array);
         for(let i=0; i < array.length;i++){
-        if (i % 2 === 0  || i===0){
+        if (i % 2 === 1){
             let multiplicado = parseInt(array[i])*2;  
         
         //Multiplica solo las posiciones en 0,2,4,6,8,10,12,14
@@ -15,7 +15,7 @@ const validator = {
             arra2.push (suma);
         
         
-         //sumar sus digitos del número del Multiplicado 
+         //sumar sus digitos del número Multiplicado 
 
         }
         
