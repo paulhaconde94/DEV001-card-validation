@@ -1,24 +1,54 @@
 const validator = {
     isValid (creditcardNumber){
         let array = creditcardNumber.split("");
-        let suma = 0;
-        console.log(array);
+        let arra2 = [];
+        //console.log(array);
         for(let i=0; i < array.length;i++){
-        let Multiplicado = array [i]*2;
-        //Multiplicar solo las posiciones en 0,2,4,6,8,10,12,14
+        if (i % 2 === 0  || i===0){
+            let multiplicado = parseInt(array[i])*2;  
         
-        if (Multiplicado >9){
-            Multiplicado.split('').forEach(Multiplicado => suma += parseInt(Multiplicado));
-            console.log(suma);
-            return suma; 
-            //sumar sus digitos el número del Multiplicado 
-        }else{
-            return Multiplicado; 
-            
-            
+        //Multiplica solo las posiciones en 0,2,4,6,8,10,12,14
+        // Una vez multiplicado sumar los números mayores o iguales a 9
+        if (multiplicado > 9){
+            let suma = 0;
+            suma=(multiplicado-multiplicado%10)/10+multiplicado%10;
+            arra2.push (suma);
+        
+        
+         //sumar sus digitos del número del Multiplicado 
+
         }
+        
+        else{
+            arra2.push(multiplicado); 
+                
         }
-      //Implementar para varlidar números   
+
+        }
+        else{
+           arra2.push(parseInt(array[i])
+           );
+
+        }
+    
+        }
+    //Sumar todos los digitos del arra2, todos los elementos
+    let SumaTotal = 0;
+    arra2.forEach(function(elementos){
+        SumaTotal += elementos;
+    });
+    
+    //Resultado de la suma sea multiplo de 10, es tarjeta valida o invalida
+     let Resultado; 
+     if (SumaTotal % 10 == 0){
+        Resultado = true;
+     }
+     else{
+        Resultado = false;
+        } 
+    return Resultado;
+
+    
     },
 
 

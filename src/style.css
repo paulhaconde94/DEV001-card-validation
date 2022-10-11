@@ -94,6 +94,7 @@ font-family: 'Poppins' , monospace;  */
 
 button:hover{
   background-color: #E9E20B ;
+  cursor: pointer;
 
 }
 
