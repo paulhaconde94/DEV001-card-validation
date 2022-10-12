@@ -10,7 +10,6 @@ La solución de este aplicativo es muy sencillo, tan solo es para verificar tu t
 ## **PROTOTIPO**
 
 
-
 ![prototipo1](https://drive.google.com/file/d/19CtUwtjjS48ulo50XSEL0g7jfHsrXLQq/view?usp=sharing)
 
 ## 3. Resumen del proyecto
