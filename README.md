@@ -9,8 +9,9 @@ La solución de este aplicativo es muy sencillo, tan solo es para verificar tu t
 
 ## **PROTOTIPO**
 
+<a href="https://ibb.co/cg3JW8y"><img src="https://i.ibb.co/xCLhng2/Card-Validation-Pantalla-1.png" alt="Card-Validation-Pantalla-1" border="0"></a>
+<a href="https://ibb.co/QjmfR0f"><img src="https://i.ibb.co/7NyX5hX/Card-Validation-Pantalla-2.png" alt="Card-Validation-Pantalla-2" border="0"></a>
 
-![prototipo1](https://ibb.co/cg3JW8y)
 
 ## 3. Resumen del proyecto
 
