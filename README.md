@@ -12,23 +12,18 @@ La solución de este aplicativo es muy sencillo, tan solo es para verificar tu t
 <a href="https://ibb.co/cg3JW8y"><img src="https://i.ibb.co/xCLhng2/Card-Validation-Pantalla-1.png" alt="Card-Validation-Pantalla-1" border="0"></a>
 <a href="https://ibb.co/QjmfR0f"><img src="https://i.ibb.co/7NyX5hX/Card-Validation-Pantalla-2.png" alt="Card-Validation-Pantalla-2" border="0"></a>
 
-<img src="PROYECTO1LABORATORIA/CardValidationPantalla1.png">
+## Despliegue 
 
-## 3. Resumen del proyecto
+A continuación puedas ver el enlace del proyecto para que pruebes cómo funciona el aplicativo. 
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+https://paulhaconde94.github.io/DEV001-card-validation/
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+**¿Cómo se utiliza la aplicación de Verificación de Tarjeta?**
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con la usuaria final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+1. Ingresas tu nombre
+2. Insertas el número de tarjeta que debe contener mínimo 14 y máximo 16 digitos.
+3. Agregas el cvv
+4. Finalmente oprimes el botón verificar. 
 
 ## 4. Consideraciones generales
 
