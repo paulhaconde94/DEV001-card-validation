@@ -14,14 +14,14 @@ La solución de este aplicativo es muy sencillo, tan solo es para verificar tu t
 
 ## Despliegue 
 
-A continuación puedas ver el enlace del proyecto para que pruebes cómo funciona el aplicativo. 
+A continuación puedes ver el enlace del proyecto para que pruebes cómo funciona el aplicativo. 
 
 https://paulhaconde94.github.io/DEV001-card-validation/
 
 **¿Cómo se utiliza la aplicación de Verificación de Tarjeta?**
 
 1. Ingresas tu nombre
-2. Insertas el número de tarjeta que debe contener mínimo 14 y máximo 16 digitos.
+2. Insertas el número de tarjeta que debe contener 16 digitos para que se válide.
 3. Agregas el cvv
 4. Finalmente oprimes el botón verificar. 
 
