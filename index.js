@@ -18,16 +18,16 @@ function verificar (){
     document.getElementById("nombre-de-usuario-final").innerHTML = NombreDeUsuario.value;
     //document.getElementById("mensaje").innerHTML = "El número que ingreso es: " + creditcardNumber;
     document.getElementById ("ultimos-cuatro").innerHTML = validator.maskify (creditcardNumber);
-    estadoV.innerHTML = "Tu Tarjeta es Válida";
+    estadoV.innerHTML = "Es Válido";
     document.getElementById("contenedorTarjeta").style.display= "none";
     document.getElementById("SegundaPantalla").style.display= "block";
     botonDos.addEventListener("click",volverInicio);
   } else{
-    //Tarjeta invalida 
+    //Tarjeta inválida 
     document.getElementById("nombre-de-usuario-final").innerHTML = NombreDeUsuario.value;
     //document.getElementById("mensaje").innerHTML = "El número que ingreso es: " + creditcardNumber;
     document.getElementById ("ultimos-cuatro").innerHTML = validator.maskify (creditcardNumber);
-    estadoV.innerHTML = "Tu Tarjeta no es Válida";
+    estadoV.innerHTML = "No es Válido";
     document.getElementById("contenedorTarjeta").style.display= "none";
     document.getElementById("SegundaPantalla").style.display= "block";
     botonDos.addEventListener("click",volverInicio);
