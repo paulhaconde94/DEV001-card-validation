@@ -1,22 +1,11 @@
-# Tarjeta de crédito válida
+Verificación de tarjeta 
 
-## Índice
-
-* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Hito 1: Criterios de aceptación mínimos del proyecto](#5-hito-1-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hito 2 (opcional): Mostrar la franquicia de tarjeta](#6-hito-2-opcional-mostrar-la-franquicia-de-tarjeta)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Para considerar Project Feedback](#10-para-considerar-project-feedback)
-
+Este proyecto esta orientado a la verificación de una tarjeta de crédito cuan se realiza una compra en una tienda de compras. 
 ***
 
-## 1. Objetivos de aprendizaje generales
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
+Solución 
+
+
 
 Mientras desarrollas este proyecto, te familiarizarás con estos nuevos conceptos:
 
