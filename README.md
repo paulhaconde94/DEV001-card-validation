@@ -1,7 +1,6 @@
 # **VERIFICACIÓN DE TARJETA** 
 
 Este proyecto esta orientado a la verificación de una tarjeta de crédito, cuando se realiza una compra en una tienda de compras. 
-***
 
 **Solución** 
 
@@ -25,12 +24,21 @@ https://paulhaconde94.github.io/DEV001-card-validation/
 3. Agregas el cvv
 4. Finalmente oprimes el botón verificar. 
 
-## 4. Consideraciones generales
+## **Desarrollado con**
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.  
-No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
+Diseño: 
+
+Realizado con adobe Xd
+
+Funcionalidad y estructura: 
+
+Html 
+Css
+Javascript
+
+Editor de texto: 
+
+Visual Studio Code
 
 ## 5. Hito 1: Criterios de aceptación mínimos del proyecto
 
