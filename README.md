@@ -1,6 +1,6 @@
 # **VERIFICACIÓN DE TARJETA** 
 
-Este proyecto esta orientado a la verificación de una tarjeta de crédito, cuando se realiza una compra en una tienda de compras. 
+Este proyecto esta orientado a la verificación de una tarjeta de crédito, cuando se realiza una compra en una tienda. 
 
 **Solución** 
 
@@ -28,20 +28,20 @@ https://paulhaconde94.github.io/DEV001-card-validation/
 
 **Diseño:**
 
-*[Diseñado con adobe Xd]
+* Diseñado con adobe Xd
 
 **Funcionalidad y estructura:**
 
-*[Html] 
-*[Css]
-*[Javascript]
+* Html
+* Css
+* Javascript
 
 **Editor de texto:**
 
-*[Visual Studio Code]
+* Visual Studio Code
 
 
-## 8. Objetivos de aprendizaje
+## **Objetivos de aprendizaje**
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
