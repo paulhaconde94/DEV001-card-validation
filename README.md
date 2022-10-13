@@ -47,5 +47,5 @@ En resumen, los criterios del proyecto Card Validation:
 
 * Tiene una interfaz que permite al usuario saber si la tarjeta es valido y ocultar el numero hasta las 4 ultimos digitos
 * Incluye pruebas unitarias de los métodos de `validator` (`isValid` y `maskify`) 
-* Tiene un interfaz desplegado usando GitHub Pages. 
+* Tiene una interfaz desplegado usando GitHub Pages. 
 * Libre de errores de eslint (warnings son ok)
