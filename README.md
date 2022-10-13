@@ -4,7 +4,7 @@ Este proyecto esta orientado a la verificación de una tarjeta de crédito, cuan
 
 **Solución** 
 
-La solución de este aplicativo es muy sencillo, tan solo es para verificar tu tarjeta de crédito es válida o no.
+La solución de este aplicativo es muy sencillo, tan solo es para verificar si tu tarjeta de crédito es válida o no.
 
 ## **PROTOTIPO**
 
@@ -45,9 +45,7 @@ https://paulhaconde94.github.io/DEV001-card-validation/
 
 En resumen, los criterios del proyecto Card Validation:
 
-* [ ] Tiene una interfaz que permite a la usuaria saber si la tarjeta es valido y ocultar el numero hasta las 4 ultimos digitos
-* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `validator` (`isValid` y `maskify`) 
-* [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok)
-* [ ] El proyecto será entregado subiendo tu código a GitHub.
-* [ ] La interfaz será "desplegada" usando GitHub Pages. 
-* [ ] El README contiene una definición del producto
+* Tiene una interfaz que permite al usuario saber si la tarjeta es valido y ocultar el numero hasta las 4 ultimos digitos
+* Incluye pruebas unitarias de los métodos de `validator` (`isValid` y `maskify`) 
+* Tiene un interfaz desplegado usando GitHub Pages. 
+* Libre de errores de eslint (warnings son ok)
